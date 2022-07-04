@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #FBF9F7;
+}
+a{
+    text-decoration: none;
+}
+ul li  {
+    display: inline;
+}
+ul li a {
+    color: inherit;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+    padding: 0 60px;
+}
+.nav-logo{
+    color: #ECAA7B;
+}
+.nav-center ul li a{
+    font-weight: 900;
+    color: #D7D6D4;
+    padding: 0 25px;
+}
+.nav-center ul li a:hover{
+    color: #1D4B22;
+}
+.nav-end button{
+    border: 2px solid #E7B889;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #E7B889;
+    cursor: pointer;
+    font-weight: 600;
+    width: 180px;
+    height: 30px;
+}
+.hoco{
+    display: flex;
+    justify-content: space-around;
+}
+.apple h1{
+    font-size: 50px;
+    padding: 50px 0 30px 0;
+    color: #3D3D3D;
+    text-transform: capitalize;
+}
+.apple p {
+    color: #A5A4A5;
+    padding-bottom: 30px;
+}
+.apple button {
+    width: 100px;
+    height: 40px;
+    background-color: #1D4B22;
+    color: white;
+    border-radius: 40px;
+    border-color: transparent;
+    font-size: 15px;
+}
+.pasti {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 40px 0 ;
+    padding: 25px 0;
+}
+.card1,.card2{
+    display: inline-flex;
+}
+.card3,.card4{
+    display: inline-flex;
+}
+.card1 , .card2 , .card3 , .card4 {
+    height: 150px;
+    width: 220px;
+    text-align: center;
+    margin: 20px 10px;
+    border: 1px solid transparent;
+}
+.card3 , .card2{
+    background-color: #FFEBCC;
+    color: #E2C393;
+}
+.card1 , .card4 {
+    background-color: #FBF9F7;
+    color:#EFEEEC;
+}
+.pasti h2 {
+    font-size: 80px;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+    top: -15px;
+}
+.card1 p {
+    color: #1D4B22;
+    position: relative;
+    top: 50px;
+    right: 25px;
+    font-weight: 800;
+}
+.card4 p {
+    color: #1D4B22;
+    position: relative;
+    top: 50px;
+    right: 25px;
+    font-weight: 800;
+}
+.card2 p {
+    color: #A77222;
+    font-weight: 800;
+    position: relative;
+    top: 60px;
+    right: 47px;
+}
+.card3 p {
+    color: #A77222;
+    font-weight: 800;
+    position: relative;
+    top: 60px;
+    right: 50px;
+}
+.card1 , .card3 {
+    border-radius: 15px 0 0 15px;
+}
+.card2 , .card4 {
+    border-radius: 0 15px 15px 0;
+}
+.namoussa {
+    align-content: center;
+    align-self: center;
+    font-size: 50px;
+    color: #E9E9E9;
+    position: relative;
+    transform: rotate(-90deg);
+    right: 185px;
+}
+.cards {
+    position: relative;
+    right: 180px;
+}
+.debana h1 {
+    color: #4C4C4C;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+.debana p {
+    color: #ACACAC;
+    font-weight: 100;
+    padding-bottom: 25px;
+}
+.debana button {
+    color: #FFFFFF;
+    background-color: #1D4B22;
+    width: 150px;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 25px;
+    cursor: pointer;
+}
